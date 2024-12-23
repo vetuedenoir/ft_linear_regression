@@ -102,8 +102,8 @@ def cost_function(x, y, theta0, theta1):
     Compute the cost function for linear regression.
 
     Args:
-        x (list): Input features.
-        y (list): Target values.
+        x (list): km.
+        y (list): price.
         theta0 (float): Intercept.
         theta1 (float): Slope.
 
@@ -124,8 +124,8 @@ def gradient1(x: list, y: list, theta0: float, theta1: float):
     Compute the partial derivative of the cost function with respect to theta0.
 
     Args:
-        x (list): Input features.
-        y (list): Target values.
+        x (list): km.
+        y (list): price.
         theta0 (float): Intercept.
         theta1 (float): Slope.
 
@@ -143,8 +143,8 @@ def gradient2(x: list, y: list, theta0: float, theta1: float):
     Compute the partial derivative of the cost function with respect to theta1.
 
     Args:
-        x (list): Input features.
-        y (list): Target values.
+        x (list): km.
+        y (list): price.
         theta0 (float): Intercept.
         theta1 (float): Slope.
 
@@ -162,8 +162,8 @@ def gradient_descente(x: list, y: list, learning_rate: int, nb_iter: int):
     Perform gradient descent to minimize the cost function and find optimal parameters.
 
     Args:
-        x (list): Input features.
-        y (list): Target values.
+        x (list): km.
+        y (list): price.
         learning_rate (int): Learning rate for gradient descent.
         nb_iter (int): Maximum number of iterations.
 
