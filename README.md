@@ -6,8 +6,11 @@ Ce projet comprend deux programmes : l’un pour entraîner le modèle et l’au
 Le projet est une introduction aux bases de l’apprentissage automatique et explore des concepts fondamentaux tels que les gradients,
 les paramètres du modèle, et l'optimisation.
 
+![linear_regression](https://github.com/user-attachments/assets/55b53ffe-997b-4b8f-bb89-384ebc336dcc)
+
 ## Objectifs pédagogiques
 Ce projet vise à :
+
 
 Comprendre et implémenter une régression linéaire simple.
 Manipuler des formules mathématiques liées à l’optimisation (gradient descent).
